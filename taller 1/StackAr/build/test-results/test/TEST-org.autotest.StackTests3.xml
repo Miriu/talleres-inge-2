@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.autotest.StackTests3" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-27T19:12:38" hostname="Felipes-MacBook-Air.local" time="0.164">
+  <properties/>
+  <testcase name="run()" classname="org.autotest.StackTests3" time="0.164"/>
+  <system-out><![CDATA[-> Corriendo tests de StackTests3 para la clase: StackAr (Stack original)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3808 (TrueConditionalsMutator: Se reemplazó obj == null por true en la línea 74.)
+   [X] Falló el test testCompararStacks en la línea 87
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5904 (MathMutator: Se reemplazó * por / en la línea 66.)
+31
+32
+2
+   [X] Falló el test testHashTest en la línea 170
+-> Corriendo tests de StackTests3 para la clase: StackArMutated6519 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 91.)
+   [X] Falló el test testToStringMethod en la línea 61
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3605 (TrueConditionalsMutator: Se reemplazó readIndex != other.readIndex por true en la línea 81.)
+   [X] Falló el test testCompararStacks en la línea 87
+-> Corriendo tests de StackTests3 para la clase: StackArMutated7528 (MathMutator: Se reemplazó + por - en la línea 25.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5228 (ConditionalsBoundaryMutator: Se reemplazó < por <= en la línea 18.)
+   [X] Falló el test testCapacity en la línea 66
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5745 (FalseReturnsMutator: Se reemplazó true por false en la línea 73.)
+   [X] Falló el test testCompararStacks en la línea 88
+-> Corriendo tests de StackTests3 para la clase: StackArMutated4069 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 18.)
+31
+32
+2
+   [X] Falló el test testConstructorWithNegativeCapacity en la línea 32
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2562 (FalseConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por false en la línea 79.)
+   [X] Falló el test testCompararStacks en la línea 83
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2485 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 29.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5752 (FalseReturnsMutator: Se reemplazó size() == elems.length por false en la línea 33.)
+   [X] Falló el test testIsFullMethod en la línea 50
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3212 (NegateConditionsMutator: Se reemplazó == por != en la línea 74.)
+   [X] Falló el test testVacioNoEsNull en la línea 74
+-> Corriendo tests de StackTests3 para la clase: StackArMutated4389 (FalseConditionalsMutator: Se reemplazó readIndex != other.readIndex por false en la línea 81.)
+   [X] Falló el test testReadIndexDiferente en la línea 142
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8984 (TrueReturnsMutator: Se reemplazó false por true en la línea 77.)
+   [X] Falló el test testCompararStacks en la línea 89
+-> Corriendo tests de StackTests3 para la clase: StackArMutated6520 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 45.)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3099 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 90.)
+   [X] Falló el test testCapacity en la línea 67
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5030 (TrueConditionalsMutator: Se reemplazó i > 0 por true en la línea 91.)
+   [X] Falló el test testToStringMethod en la línea 59
+-> Corriendo tests de StackTests3 para la clase: StackArMutated518 (NullReturnsMutator: Se reemplazó rv por null en la línea 58.)
+   [X] Falló el test testTopYPop en la línea 124
+-> Corriendo tests de StackTests3 para la clase: StackArMutated999 (ZeroConstantMutator: Se reemplazó 10 por 0 en la línea 7.)
+   [X] Falló el test testIsEmptyMethod en la línea 40
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1718 (MathMutator: Se reemplazó + por - en la línea 65.)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated9563 (NegateConditionsMutator: Se reemplazó == por != en la línea 72.)
+   [X] Falló el test testVacioNoEsNull en la línea 74
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2525 (OneConstantMutator: Se reemplazó 31 por 1 en la línea 63.)
+31
+32
+2
+   [X] Falló el test testHashTest2 en la línea 179
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1955 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 25.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3974 (NegateConditionsMutator: Se reemplazó < por >= en la línea 18.)
+   [X] Falló el test testDefaultConstructor en la línea 23
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2007 (TrueConditionalsMutator: Se reemplazó this == obj por true en la línea 72.)
+   [X] Falló el test testVacioNoEsNull en la línea 74
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8833 (FalseConditionalsMutator: Se reemplazó this == obj por false en la línea 72.)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated345 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 25.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1485 (TrueConditionalsMutator: Se reemplazó getClass() != obj.getClass() por true en la línea 76.)
+   [X] Falló el test testCompararStacks en la línea 87
+-> Corriendo tests de StackTests3 para la clase: StackArMutated7622 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 90.)
+   [X] Falló el test testToStringMethod en la línea 59
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3268 (NegateConditionsMutator: Se reemplazó <= por > en la línea 90.)
+   [X] Falló el test testCapacity en la línea 67
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2014 (ConditionalsBoundaryMutator: Se reemplazó > por >= en la línea 91.)
+   [X] Falló el test testToStringMethod en la línea 59
+-> Corriendo tests de StackTests3 para la clase: StackArMutated6255 (TrueConditionalsMutator: Se reemplazó isFull() por true en la línea 37.)
+   [X] Falló el test testIsEmptyMethod en la línea 40
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5561 (NegateConditionsMutator: Se reemplazó == por != en la línea 33.)
+   [X] Falló el test testIsEmptyMethod en la línea 40
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1361 (ZeroConstantMutator: Se reemplazó 31 por 0 en la línea 63.)
+31
+32
+2
+   [X] Falló el test testHashTest en la línea 170
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2091 (MathMutator: Se reemplazó + por - en la línea 66.)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8473 (MathMutator: Se reemplazó * por / en la línea 65.)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8153 (OneConstantMutator: Se reemplazó 10 por 1 en la línea 7.)
+   [X] Falló el test testCapacidadDefault en la línea 95
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8271 (TrueConditionalsMutator: Se reemplazó capacity < 0 por true en la línea 18.)
+   [X] Falló el test testDefaultConstructor en la línea 23
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1609 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 64.)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1326 (EmptyReturnsMutator: Se reemplazó b.toString() por "" en la línea 99.)
+   [X] Falló el test testCapacity en la línea 67
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1527 (TrueReturnsMutator: Se reemplazó size() == 0 por true en la línea 29.)
+   [X] Falló el test testIsEmptyMethod en la línea 41
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1923 (FalseReturnsMutator: Se reemplazó true por false en la línea 83.)
+   [X] Falló el test testCompararStacks en la línea 87
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8519 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 54.)
+   [X] Falló el test testPopYTopVacio en la línea 116
+-> Corriendo tests de StackTests3 para la clase: StackArMutated4512 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 45.)
+   [X] Falló el test testIsEmptyMethod en la línea 42
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2022 (NegateConditionsMutator: Se reemplazó == por != en la línea 29.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated4684 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 54.)
+   [X] Falló el test testIsEmptyMethod en la línea 42
+-> Corriendo tests de StackTests3 para la clase: StackArMutated135 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 91.)
+   [X] Falló el test testToStringMethod en la línea 59
+-> Corriendo tests de StackTests3 para la clase: StackArMutated497 (IncrementsMutator: Se reemplazó -- por ++ en la línea 49.)
+   [X] Falló el test testIsEmptyMethod en la línea 43
+-> Corriendo tests de StackTests3 para la clase: StackArMutated9807 (MinusOneConstantMutator: Se reemplazó 10 por -1 en la línea 7.)
+   [X] Falló el test testDefaultConstructor en la línea 23
+-> Corriendo tests de StackTests3 para la clase: StackArMutated7674 (FalseReturnsMutator: Se reemplazó size() == 0 por false en la línea 29.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated7475 (TrueReturnsMutator: Se reemplazó size() == elems.length por true en la línea 33.)
+   [X] Falló el test testIsEmptyMethod en la línea 40
+-> Corriendo tests de StackTests3 para la clase: StackArMutated7034 (NullReturnsMutator: Se reemplazó b.toString() por null en la línea 99.)
+   [X] Falló el test testCapacity en la línea 67
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8043 (EmptyReturnsMutator: Se reemplazó result por 0 en la línea 67.)
+31
+32
+2
+   [X] Falló el test testHashTest en la línea 170
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3193 (FalseConditionalsMutator: Se reemplazó getClass() != obj.getClass() por false en la línea 76.)
+   [X] Falló el test testCompararStacks en la línea 89
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1936 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 18.)
+   [X] Falló el test testCapacity en la línea 66
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2746 (FalseConditionalsMutator: Se reemplazó i > 0 por false en la línea 91.)
+   [X] Falló el test testToStringMethod en la línea 61
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5418 (EmptyReturnsMutator: Se reemplazó readIndex + 1 por 0 en la línea 25.)
+   [X] Falló el test testIsEmptyMethod en la línea 41
+-> Corriendo tests de StackTests3 para la clase: StackArMutated9105 (TrueConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por true en la línea 79.)
+   [X] Falló el test testCompararStacks en la línea 87
+-> Corriendo tests de StackTests3 para la clase: StackArMutated9227 (NegateConditionsMutator: Se reemplazó > por <= en la línea 91.)
+   [X] Falló el test testToStringMethod en la línea 59
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3875 (FalseConditionalsMutator: Se reemplazó obj == null por false en la línea 74.)
+   [X] Falló el test testVacioNoEsNull en la línea 74
+-> Corriendo tests de StackTests3 para la clase: StackArMutated4886 (TrueReturnsMutator: Se reemplazó false por true en la línea 80.)
+   [X] Falló el test testCompararStacks en la línea 83
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8606 (ConditionalsBoundaryMutator: Se reemplazó <= por < en la línea 90.)
+   [X] Falló el test testToStringMethod en la línea 59
+-> Corriendo tests de StackTests3 para la clase: StackArMutated6547 (FalseConditionalsMutator: Se reemplazó capacity < 0 por false en la línea 18.)
+31
+32
+2
+   [X] Falló el test testConstructorWithNegativeCapacity en la línea 32
+-> Corriendo tests de StackTests3 para la clase: StackArMutated2468 (NullReturnsMutator: Se reemplazó rv por null en la línea 50.)
+   [X] Falló el test testTopYPop en la línea 125
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5104 (IncrementsMutator: Se reemplazó ++ por -- en la línea 40.)
+   [X] Falló el test testIsEmptyMethod en la línea 40
+-> Corriendo tests de StackTests3 para la clase: StackArMutated3444 (NegateConditionsMutator: Se reemplazó != por == en la línea 81.)
+   [X] Falló el test testCompararStacks en la línea 87
+-> Corriendo tests de StackTests3 para la clase: StackArMutated4973 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 11.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated4334 (TrueReturnsMutator: Se reemplazó false por true en la línea 75.)
+   [X] Falló el test testVacioNoEsNull en la línea 74
+-> Corriendo tests de StackTests3 para la clase: StackArMutated1266 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 64.)
+31
+32
+2
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8533 (TrueReturnsMutator: Se reemplazó false por true en la línea 82.)
+   [X] Falló el test testReadIndexDiferente en la línea 142
+-> Corriendo tests de StackTests3 para la clase: StackArMutated7168 (MinusOneConstantMutator: Se reemplazó 31 por -1 en la línea 63.)
+31
+32
+2
+   [X] Falló el test testHashTest3 en la línea 189
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5585 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 29.)
+   [X] Falló el test testDefaultConstructor en la línea 24
+-> Corriendo tests de StackTests3 para la clase: StackArMutated8894 (FalseConditionalsMutator: Se reemplazó isFull() por false en la línea 37.)
+   [X] Falló el test testCapacidadDefault en la línea 106
+-> Corriendo tests de StackTests3 para la clase: StackArMutated5140 (NegateConditionsMutator: Se reemplazó != por == en la línea 76.)
+   [X] Falló el test testCompararStacks en la línea 87
+-> Corriendo tests de StackTests3 para la clase: StackArMutated604 (IncrementsMutator: Se reemplazó ++ por -- en la línea 90.)
+   [X] Falló el test testToStringMethod en la línea 59
+-> Mutantes generados: 75
+-> Mutantes eliminados: 68
+    - StackArMutated2468 (NullReturnsMutator: Se reemplazó rv por null en la línea 50.)
+    - StackArMutated3875 (FalseConditionalsMutator: Se reemplazó obj == null por false en la línea 74.)
+    - StackArMutated2746 (FalseConditionalsMutator: Se reemplazó i > 0 por false en la línea 91.)
+    - StackArMutated5418 (EmptyReturnsMutator: Se reemplazó readIndex + 1 por 0 en la línea 25.)
+    - StackArMutated8606 (ConditionalsBoundaryMutator: Se reemplazó <= por < en la línea 90.)
+    - StackArMutated999 (ZeroConstantMutator: Se reemplazó 10 por 0 en la línea 7.)
+    - StackArMutated2022 (NegateConditionsMutator: Se reemplazó == por != en la línea 29.)
+    - StackArMutated6547 (FalseConditionalsMutator: Se reemplazó capacity < 0 por false en la línea 18.)
+    - StackArMutated518 (NullReturnsMutator: Se reemplazó rv por null en la línea 58.)
+    - StackArMutated4886 (TrueReturnsMutator: Se reemplazó false por true en la línea 80.)
+    - StackArMutated7674 (FalseReturnsMutator: Se reemplazó size() == 0 por false en la línea 29.)
+    - StackArMutated7475 (TrueReturnsMutator: Se reemplazó size() == elems.length por true en la línea 33.)
+    - StackArMutated4684 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 54.)
+    - StackArMutated5140 (NegateConditionsMutator: Se reemplazó != por == en la línea 76.)
+    - StackArMutated1936 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 18.)
+    - StackArMutated1326 (EmptyReturnsMutator: Se reemplazó b.toString() por "" en la línea 99.)
+    - StackArMutated1527 (TrueReturnsMutator: Se reemplazó size() == 0 por true en la línea 29.)
+    - StackArMutated8519 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 54.)
+    - StackArMutated1923 (FalseReturnsMutator: Se reemplazó true por false en la línea 83.)
+    - StackArMutated9807 (MinusOneConstantMutator: Se reemplazó 10 por -1 en la línea 7.)
+    - StackArMutated1361 (ZeroConstantMutator: Se reemplazó 31 por 0 en la línea 63.)
+    - StackArMutated7622 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 90.)
+    - StackArMutated604 (IncrementsMutator: Se reemplazó ++ por -- en la línea 90.)
+    - StackArMutated4512 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 45.)
+    - StackArMutated6255 (TrueConditionalsMutator: Se reemplazó isFull() por true en la línea 37.)
+    - StackArMutated5561 (NegateConditionsMutator: Se reemplazó == por != en la línea 33.)
+    - StackArMutated3268 (NegateConditionsMutator: Se reemplazó <= por > en la línea 90.)
+    - StackArMutated2014 (ConditionalsBoundaryMutator: Se reemplazó > por >= en la línea 91.)
+    - StackArMutated1485 (TrueConditionalsMutator: Se reemplazó getClass() != obj.getClass() por true en la línea 76.)
+    - StackArMutated7034 (NullReturnsMutator: Se reemplazó b.toString() por null en la línea 99.)
+    - StackArMutated8043 (EmptyReturnsMutator: Se reemplazó result por 0 en la línea 67.)
+    - StackArMutated3193 (FalseConditionalsMutator: Se reemplazó getClass() != obj.getClass() por false en la línea 76.)
+    - StackArMutated2525 (OneConstantMutator: Se reemplazó 31 por 1 en la línea 63.)
+    - StackArMutated2007 (TrueConditionalsMutator: Se reemplazó this == obj por true en la línea 72.)
+    - StackArMutated3974 (NegateConditionsMutator: Se reemplazó < por >= en la línea 18.)
+    - StackArMutated1955 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 25.)
+    - StackArMutated4069 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 18.)
+    - StackArMutated5752 (FalseReturnsMutator: Se reemplazó size() == elems.length por false en la línea 33.)
+    - StackArMutated4389 (FalseConditionalsMutator: Se reemplazó readIndex != other.readIndex por false en la línea 81.)
+    - StackArMutated3099 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 90.)
+    - StackArMutated8984 (TrueReturnsMutator: Se reemplazó false por true en la línea 77.)
+    - StackArMutated3212 (NegateConditionsMutator: Se reemplazó == por != en la línea 74.)
+    - StackArMutated2562 (FalseConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por false en la línea 79.)
+    - StackArMutated2485 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 29.)
+    - StackArMutated9563 (NegateConditionsMutator: Se reemplazó == por != en la línea 72.)
+    - StackArMutated497 (IncrementsMutator: Se reemplazó -- por ++ en la línea 49.)
+    - StackArMutated8153 (OneConstantMutator: Se reemplazó 10 por 1 en la línea 7.)
+    - StackArMutated135 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 91.)
+    - StackArMutated8271 (TrueConditionalsMutator: Se reemplazó capacity < 0 por true en la línea 18.)
+    - StackArMutated5904 (MathMutator: Se reemplazó * por / en la línea 66.)
+    - StackArMutated6519 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 91.)
+    - StackArMutated7528 (MathMutator: Se reemplazó + por - en la línea 25.)
+    - StackArMutated5228 (ConditionalsBoundaryMutator: Se reemplazó < por <= en la línea 18.)
+    - StackArMutated5745 (FalseReturnsMutator: Se reemplazó true por false en la línea 73.)
+    - StackArMutated3605 (TrueConditionalsMutator: Se reemplazó readIndex != other.readIndex por true en la línea 81.)
+    - StackArMutated5104 (IncrementsMutator: Se reemplazó ++ por -- en la línea 40.)
+    - StackArMutated4334 (TrueReturnsMutator: Se reemplazó false por true en la línea 75.)
+    - StackArMutated4973 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 11.)
+    - StackArMutated9105 (TrueConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por true en la línea 79.)
+    - StackArMutated8533 (TrueReturnsMutator: Se reemplazó false por true en la línea 82.)
+    - StackArMutated7168 (MinusOneConstantMutator: Se reemplazó 31 por -1 en la línea 63.)
+    - StackArMutated9227 (NegateConditionsMutator: Se reemplazó > por <= en la línea 91.)
+    - StackArMutated3444 (NegateConditionsMutator: Se reemplazó != por == en la línea 81.)
+    - StackArMutated5585 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 29.)
+    - StackArMutated8894 (FalseConditionalsMutator: Se reemplazó isFull() por false en la línea 37.)
+    - StackArMutated5030 (TrueConditionalsMutator: Se reemplazó i > 0 por true en la línea 91.)
+    - StackArMutated345 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 25.)
+    - StackArMutated3808 (TrueConditionalsMutator: Se reemplazó obj == null por true en la línea 74.)
+-> Mutantes vivos: 7
+    - StackArMutated8833 (FalseConditionalsMutator: Se reemplazó this == obj por false en la línea 72.)
+    - StackArMutated1609 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 64.)
+    - StackArMutated6520 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 45.)
+    - StackArMutated2091 (MathMutator: Se reemplazó + por - en la línea 66.)
+    - StackArMutated8473 (MathMutator: Se reemplazó * por / en la línea 65.)
+    - StackArMutated1718 (MathMutator: Se reemplazó + por - en la línea 65.)
+    - StackArMutated1266 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 64.)
+-> Mutation score: 90%
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.reflections.Reflections - Reflections took 48 ms to scan 1 urls, producing 1 keys and 75 values
+]]></system-err>
+</testsuite>
